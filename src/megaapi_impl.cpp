@@ -16143,6 +16143,18 @@ const MegaTextChat *MegaTextChatListPrivate::get(unsigned int i) const
     }
 }
 
+MegaTextChat *MegaTextChatListPrivate::getObject(unsigned int i)
+{
+    if (i >= size())
+    {
+        return NULL;
+    }
+    else
+    {
+        return list.at(i);
+    }
+}
+
 int MegaTextChatListPrivate::size() const
 {
     return list.size();

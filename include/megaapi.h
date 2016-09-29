@@ -1438,6 +1438,7 @@ public:
      * @return MegaTextChat at the position i in the list
      */
     virtual const MegaTextChat *get(unsigned int i)  const;
+    virtual MegaTextChat *getObject(unsigned int i);
 
     /**
      * @brief Returns the number of MegaTextChats in the list

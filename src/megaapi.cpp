@@ -3800,6 +3800,11 @@ const MegaTextChat *MegaTextChatList::get(unsigned int) const
     return NULL;
 }
 
+MegaTextChat *MegaTextChatList::getObject(unsigned int)
+{
+    return NULL;
+}
+
 int MegaTextChatList::size() const
 {
     return 0;
